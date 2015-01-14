@@ -26,6 +26,10 @@ html {
 
 }
 
+.center{
+    text-align: center;   
+}
+
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
@@ -209,4 +213,8 @@ sub {
 .gutter-quarter, .gutter-1-4 {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
+}
+
+.center {
+    text-align: center;   
 }
