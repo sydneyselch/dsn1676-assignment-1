@@ -21,8 +21,9 @@ html {
 }
 
 .masthead {
-    background-image: transparent url("../img/masthead-lines-bg.png") repeat left center;
     text-align: center;
+    background: transparent url("../img/masthead-lines-bg.png") repeat left center;
+    height: 3em;
 }
 
 .bg-beige{
@@ -34,10 +35,25 @@ html {
 }
 
 .panel{
-    border-image: url(../img/border.png) 36 36 36 36 stretch stretch;
-    border-width: 36px 36px 36px 36px;
+    border-image: url(../img/border.png) 20 20 20 20 stretch stretch;
+    border-width: 20px 20px 20px 20px;
 }
 
-white{
+.white{
     color:white;
+}
+
+.title {
+   background-color: #E7E5D9;
+    display:inline-block;
+    text-shadow: 3px 3px 0 #bfbfbe;
+}
+
+.img-flex {
+    display: block;
+    width: 100%;
+}
+
+.georgia{
+    font-family: Georgia;   
 }
